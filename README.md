@@ -1,7 +1,6 @@
 # Laravel blade components
 
-This is a package of blade components that I often use in my projects. Checkout the docs at https://getsenna.com/senna-ui/v1. It's called senna/ui on packagist. 
-Livewire users: all of the components are wire-modelable via wire:model.
+Senna UI is a set of nice looking opensource blade components. They can be wired up via Livewire or used without it. Checkout the docs at https://getsenna.com/senna-ui/v1. It's called senna/ui on packagist. Livewire users: all of the components are wire-modelable via wire:model.
 
 ## Installation
 

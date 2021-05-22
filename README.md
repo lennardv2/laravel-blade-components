@@ -18,12 +18,15 @@ Add the head component to your layouts page head-tag. This will include the styl
 ```
 <head>
     ..
-<x-senna.ui.head />
+@include("senna.ui::theme")
+@include("senna.ui::styles")
+@include("senna.ui::extra-styles")
 </head>
 
 <body>
     ..
-<x-senna.ui.footer />
+@include('senna.ui::scripts')
+@include('senna.ui::extra-scripts')
 </body>
 ```
 
